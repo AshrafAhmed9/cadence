@@ -1,0 +1,30 @@
+{
+  "name": "cadence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An issue tracker where an agent is a real teammate on the board. WebMCP Challenge entry.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.worker.json && vite build",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.worker.json",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler deploy",
+    "worker:dev": "wrangler dev"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webmcp-kit": "github:AshrafAhmed9/webmcp-kit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "wrangler": "^3.99.0"
+  }
+}

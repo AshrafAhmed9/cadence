@@ -1,0 +1,9 @@
+[
+  "Can't log in after resetting password",
+  "401 on login post password-reset flow",
+  "Large board CSV export hangs",
+  "Fix the thing with cycle dates",
+  "Investigate slow board load",
+  "App crashes on filter",
+  "Data loss on offline reconnect"
+]
