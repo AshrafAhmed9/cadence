@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { ActivityLog, DefinedTool } from "webmcp-kit";
+import type { ActivityLog, DefinedTool } from "@ashraf009/webmcp-kit";
 
 function findTool(tools: DefinedTool<any, any>[], name: string): DefinedTool<any, any> {
   const tool = tools.find((t) => t.name === name);

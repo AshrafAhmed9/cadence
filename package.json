@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "webmcp-kit": "github:AshrafAhmed9/webmcp-kit"
+    "@ashraf009/webmcp-kit": "^0.1.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241127.0",

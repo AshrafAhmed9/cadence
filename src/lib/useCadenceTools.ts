@@ -1,8 +1,8 @@
 import { useMemo, useRef, useState } from "react";
 import type { Actor } from "../cf-foundation/actor.js";
 import { resolveToolNames } from "../cf-foundation/actor.js";
-import { createActivityLog, type DefinedTool, type ConfirmFn } from "webmcp-kit";
-import { useScopedTools } from "webmcp-kit/react";
+import { createActivityLog, type DefinedTool, type ConfirmFn } from "@ashraf009/webmcp-kit";
+import { useScopedTools } from "@ashraf009/webmcp-kit/react";
 import type { BoardStore } from "./store.js";
 import { createCadenceTools, type Selection } from "../tools/index.js";
 import { CADENCE_TOOL_SCOPES } from "../shared/tool-scopes.js";

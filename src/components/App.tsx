@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
-import { isWebMCPAvailable } from "webmcp-kit";
+import { isWebMCPAvailable } from "@ashraf009/webmcp-kit";
 import type { PermissionScope } from "../cf-foundation/actor.js";
 import { createBoardStore } from "../lib/store.js";
 import { connectSync, type SyncStatus } from "../lib/sync.js";

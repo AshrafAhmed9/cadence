@@ -1,5 +1,5 @@
 import type { Actor } from "../cf-foundation/actor.js";
-import { defineTool, type ActivityLog } from "webmcp-kit";
+import { defineTool, type ActivityLog } from "@ashraf009/webmcp-kit";
 import type { BoardStore } from "../lib/store.js";
 import { createReadTools, type Selection } from "./read.js";
 import { createWriteTools } from "./write.js";

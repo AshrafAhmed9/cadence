@@ -1,4 +1,4 @@
-import { defineTool } from "webmcp-kit";
+import { defineTool } from "@ashraf009/webmcp-kit";
 import type { BoardStore } from "../lib/store.js";
 import type { Issue, IssuePriority, IssueStatus } from "../shared/types.js";
 

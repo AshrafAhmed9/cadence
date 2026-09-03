@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { ActivityEntry, ActivityLog } from "webmcp-kit";
+import type { ActivityEntry, ActivityLog } from "@ashraf009/webmcp-kit";
 
 export function ActivityFeed({ log }: { log: ActivityLog }) {
   const [entries, setEntries] = useState<ActivityEntry[]>(() => log.getAll());

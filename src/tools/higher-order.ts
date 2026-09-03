@@ -1,5 +1,5 @@
 import type { Actor } from "../cf-foundation/actor.js";
-import { defineTool, withConfirmation, type ConfirmFn } from "webmcp-kit";
+import { defineTool, withConfirmation, type ConfirmFn } from "@ashraf009/webmcp-kit";
 import type { BoardStore } from "../lib/store.js";
 import type { Issue, IssuePriority } from "../shared/types.js";
 import { NotFoundError } from "../shared/reducer.js";

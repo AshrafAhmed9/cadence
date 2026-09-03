@@ -1,5 +1,5 @@
 import type { Actor } from "../cf-foundation/actor.js";
-import { defineTool } from "webmcp-kit";
+import { defineTool } from "@ashraf009/webmcp-kit";
 import type { BoardStore } from "../lib/store.js";
 import { NotFoundError } from "../shared/reducer.js";
 
